@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2019", // Node.js 버전에 맞는 ECMAScript 버전 선택
+    "module": "commonjs", // Node.js의 모듈 시스템
+    "lib": ["es2019"], // Node.js 버전에 맞는 라이브러리
+    "outDir": "./dist", // 컴파일된 JS 파일이 저장될 디렉토리
+    "rootDir": "./src", // TS 소스 파일이 위치한 디렉토리
+    "strict": true, // 모든 엄격한 타입 체킹 옵션 활성화
+    "esModuleInterop": true, // CommonJS 모듈 import 지원
+    "skipLibCheck": true, // 선언 파일(.d.ts)의 타입 체킹 생략
+    "forceConsistentCasingInFileNames": true // 파일명 대소문자 일관성 강제
+  },
+  "include": ["src/**/*"], // 컴파일에 포함될 파일들
+  "exclude": ["node_modules", "dist"] // 컴파일에서 제외될 파일들
+}
