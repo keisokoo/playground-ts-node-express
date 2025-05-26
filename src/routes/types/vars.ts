@@ -58,3 +58,5 @@ const man2: Human2 = {
 };
 
 const man3 = new Human3("John", 30, "male");
+
+console.log("abc");
