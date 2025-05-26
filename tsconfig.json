@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2019", // Node.js 버전에 맞는 ECMAScript 버전 선택
+    "target": "ESNext", // Node.js 버전에 맞는 ECMAScript 버전 선택
     "module": "commonjs", // Node.js의 모듈 시스템
-    "lib": ["es2019"], // Node.js 버전에 맞는 라이브러리
+    "lib": ["ESNext"], // Node.js 버전에 맞는 라이브러리
     "outDir": "./dist", // 컴파일된 JS 파일이 저장될 디렉토리
     "rootDir": "./src", // TS 소스 파일이 위치한 디렉토리
     "strict": true, // 모든 엄격한 타입 체킹 옵션 활성화
